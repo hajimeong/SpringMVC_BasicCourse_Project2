@@ -23,6 +23,14 @@ public class MappingController {
         return "ok";
     }
 
+    /**
+     * 편리한 축약 애노테이션 (코드보기)
+     * @GetMapping
+     * @PostMapping
+     * @PutMapping
+     * @DeleteMapping
+     * @PatchMapping
+     */
     @GetMapping("mapping-get-v2")
     public String mappingGetV2(){
         log.info("mappingGetV2");
